@@ -1,0 +1,8 @@
+{
+  "name": "lp4-finance-base",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "d57b8a0e"
+}

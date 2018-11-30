@@ -1,0 +1,59 @@
+page-home {
+  .navigation {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+  }
+  .nav-left {
+    left: 5%;
+    position: absolute;
+  }
+  .nav-right {
+    right: 5%;
+    position: absolute;
+  }
+  .valor {
+    position: absolute;
+    font-size: 1em;
+    right: 5%;
+    bottom: 25%;
+  }
+  .cred {
+    color: green;
+    font-weight: bold;
+  }
+  .deb {
+    color: red;
+    font-weight: bold;
+  }
+  .saldo {
+    font-size: 1em;
+  }
+  .lancamento {
+    width: 100%;
+    position: relative;
+  }
+  .lancamento .pago {
+    position: absolute;
+    color: green;
+    right: 5%;
+    top: 25%;
+  }
+  .lancamento ion-title {
+    float: left;
+    width: 100%;
+    // margin-bottom: 5px;
+    // text-align: center;
+  }
+  .lancamento ion-title .toolbar-title-md {
+    padding: 0;
+  }
+  .lancamento .info {
+    float: left;
+    width: 50%;
+  }
+  .list-ios {
+    margin: 0;
+  }
+}
